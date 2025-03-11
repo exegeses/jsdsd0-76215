@@ -1,0 +1,13 @@
+body{
+    background-color: hsl(171, 20%, 13%);
+    color: hsl(171, 90%, 80%);
+    font-family: sans-serif;
+    font-size: 32px;
+}
+main{
+    width: 768px;
+    margin: auto;
+}
+h1{
+    font-weight: 300;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controladores de eventos</title>
+</head>
+<body>
+    <h1 style="color: white;">Controladores de eventos</h1>
+
+    <button onclick="document.body.style.backgroundColor='hsl(210, 50%, 70%)'">celeste</button>
+    <button onclick="document.body.style.backgroundColor='hsl(30, 70%, 60%)'">naranja</button>
+    <button onclick="document.body.style.backgroundColor = 'hsl(120, 40%, 60%)'">verde</button>
+
+    <p>
+        En HTML tenemos controladores de eventos 
+        que sirven para ejecutar código Javascript 
+        cuando suceda el evento
+    </p>
+
+    <img src="imgs/warning.png" onclick="alert('hiciste click!')">
+
+    <script>
+        // acceder al DOM: Document Object Model
+            // style se refiere a CSS
+        document.body.style.backgroundColor = 'hsl(120, 40%, 60%)'
+    </script>
+</body>
+</html>
