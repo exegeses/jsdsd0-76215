@@ -33,8 +33,10 @@ function verReloj()
         segundos = agregarCero(segundos)
     console.log('segundos:', segundos)
 
-    // escribimos en el article concatenendo
-    contenedor.textContent = horas +':'+ minutos +':'+ segundos 
+    // escribimos en el article concatenando
+    // contenedor.textContent = horas +':'+ minutos +':'+ segundos 
+    // Interpolamos en el article
+    contenedor.textContent = `${horas}:${minutos}:${segundos}`
 }
 
 verReloj()

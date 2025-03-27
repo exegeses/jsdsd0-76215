@@ -89,3 +89,11 @@ nav a:hover{
         text-align: center;
         font-size: 24px;
     }
+
+    #muestras p{
+        margin: 8px 0px;
+        background-color: hsl(171, 20%, 8%);
+        padding: 8px 24px;
+        border-radius: 12px;
+        font-size: 40px;
+    }
